@@ -1,4 +1,5 @@
 pip install requests
 pip install pandas
 pip install pandas_datareader
+pip install pika
 pip install bs4

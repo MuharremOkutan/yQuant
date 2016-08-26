@@ -137,3 +137,9 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+
+# Setting File including password
+config.json
+
+# Database file 
+*.db

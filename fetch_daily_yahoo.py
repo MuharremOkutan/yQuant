@@ -1,6 +1,6 @@
 from datetime import datetime
 from datetime import timedelta
-import sqlite3
+import sqlite3	
 
 import pandas_datareader.data as web
 from pandas_datareader._utils import RemoteDataError
@@ -8,7 +8,6 @@ from pandas_datareader._utils import RemoteDataError
 from yQuant.logger import get_logger
 from yQuant.code import get_code_list
 from yQuant.settings import FETCHING_START
-
 
 def run():
     with sqlite3.connect("daily.db") as con:
